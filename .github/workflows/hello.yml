@@ -15,6 +15,8 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: "3.10"
-      # - name: Install requirements
-      #     run: pip3 install -r /mysite/requirements.txt
+      - name: Install requirements
+          run: 
+            python -m pip install pip --upgrade
+            python -m pip3 install -r /mysite/requirements.txt
 
