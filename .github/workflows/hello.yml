@@ -17,6 +17,6 @@ jobs:
           python-version: "3.10"
       - name: Install requirements
         run: 
-          python3.10 -m pip install pip --upgrade
-          python3.10 pip install -r requirements4.txt
+          python -m pip install pip --upgrade
+          python pip install -r requirements4.txt
 
