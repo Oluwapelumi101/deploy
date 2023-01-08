@@ -10,4 +10,4 @@ jobs:
       name: Check Code
       uses: actions/checkout@v2
       name: Run hello World
-      run: echo "hello world"
+      runs: echo "hello world"
