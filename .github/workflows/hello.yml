@@ -1,0 +1,11 @@
+name: Hello World
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test_my_project:
+    runs-on: ubuntu-latest
+    steps:
+      name: Check Code
+      uses: actions/checkout@v2
