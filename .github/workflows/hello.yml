@@ -7,7 +7,7 @@ jobs:
   test_my_project:
     runs-on: ubuntu-latest
     steps:
-      name: Check Code
-      uses: actions/checkout@v2
-      name: Run hello World
-      run: echo "hello world"
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run hello World
+        run: echo "hello world"
