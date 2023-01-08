@@ -20,6 +20,7 @@ jobs:
           # python -m pip install pip --upgrade
           pip install -r requirements4.txt
       - name: Run Tests
+        working-directory: ./mysite
         run:
-          python /mysite/manage.py/ test
+          python manage.py test
 
