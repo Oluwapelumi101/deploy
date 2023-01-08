@@ -18,5 +18,5 @@ jobs:
       - name: Install requirements
         run: 
           python3.10 -m pip install pip --upgrade
-          python3.10 -m pip3 install -r /mysite/requirements.txt
+          python3.10 -m pip3 install -r /mysite/requirements4.txt
 
